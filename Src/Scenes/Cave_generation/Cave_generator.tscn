@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Src/Scenes/Cave_generation/Cave_generator.gd" type="Script" id=1]
+
+[node name="Cave_generator" type="Node2D"]
+script = ExtResource( 1 )
+map_properties/map_dimensions/map_dimensions/map_x = 0
+map_properties/map_dimensions/map_dimensions/map_y = 0
+map_properties/map_dimensions/map_dimensions/chunk_size = 16
+map_properties/map_noise_properties/world_seed = "Hello, World!"
+map_properties/map_noise_properties/noise_octaves = 3
+map_properties/map_noise_properties/noise_period = 3
+map_properties/map_noise_properties/noise_persistence = 0.7
+map_properties/map_noise_properties/noise_lacunarity = 0.4
+map_properties/map_generation_properties/noise_threshold = 0.5
+map_properties/map_generation_properties/redraw = false
+map_properties/map_generation_properties/clear_with_redraw = true
+map_properties/chunk_unloading_properties/unload_chunk_x = 0
+map_properties/chunk_unloading_properties/unload_chunk_y = 0
+map_properties/chunk_unloading_properties/unload_chunk_size = 16
+map_properties/chunk_unloading_properties/unload = false
